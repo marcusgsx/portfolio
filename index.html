@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Marcus Gomes Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+  </script>
+  
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Marcus Gomes</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#experience">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <img src="assets/moon.png" alt="moon" id="moon-icon">
+            </ul>
+            
+        </div>
+    </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Marcus Gomes</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">Sobre mim</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Habilidades</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()"> Contato</a></li>
+        </div>
+    </div>
+   </nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="assets/dev-img.svg" alt="Perfil Marcus Goemes">
+    </div>
+<div class="section__text">
+    <p class="section__text__p1">Olá! Eu sou</p>
+    <h1 class="title">Marcus Gomes</h1>
+    <p class="section__text__p2">Desenvolvedor Front-End</p>
+    <div class="btn-container">
+        <button class="btn btn-color-2" 
+        onclick="window.open('./assets/resume-marcus-gomes.pdf')">Download CV</button>
+        <button class="btn btn-color-1" 
+        onclick="location.href='./#contact'">Contato</button>
+    </div>
+    <div id="socials-container">
+        <img src="assets/linkedin-square-logo.png" alt="Meu Perfil do LinkedIn" class="icon" 
+        onclick="location.href='https://linkedin.com/in/marcusgs/'">
+        <img src="assets/github-logo.png" alt="Meu Perfil do GitHub" class="icon" 
+        onclick="location.href='https://github.com/marcusgsx'">
+    </div>
+</div>
+</section>
+<section id="about">
+    <p class="section__text__p1"> Saiba Mais</p>
+    <p class="title">Sobre Mim</p>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="assets/devoloper-img.svg" alt="Imagem do Perfil" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="assets/graduation-icon.png" alt="certification-icon" class="icon"/>
+                    <h3>Formação 1 </h3>
+                    <p>Análise e Desenvolvimento de Sistemas <br>Universidade Nove de Julho </p>
+                </div>
+                <div class="details-container">
+                    <img src="assets/graduation-icon.png" alt="graduation-icon" class="icon"/>
+                    <h3>Formação 2</h3>
+                    <p>Data Analyst <br> Coursera (Google PT) </p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugit est, ex eius possimus minus reprehenderit aperiam
+                     dicta, deserunt esse autem nulla quasi, perspiciatis 
+                     totam fugiat tempore impedit quisquam error hic numquam.
+                      Impedit ea maxime earum eligendi asperiores. Expedita 
+                      dicta cum enim perferendis rerum illo molestias dolorem 
+                      perspiciatis commodi nostrum! Error.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <img src="assets/down-arrow.png" alt="Icone de seta" class="icon arrow" onclick="location.href='./#experience' " />
+</section>
+<section id="experience"> 
+    <p class="section__text__p1">Minhas</p>
+    <h1 class="title">Habilidades</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Front-End</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Avançado</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Avançado</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermediário</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>React</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>Flutter</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>Material UI</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Back-End</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>MySQL</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>Java</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>Python</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Básico</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/check-icon.png" alt="Check Icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediário</p>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/down-arrow.png" alt="Icone de seta" class="icon arrow" onclick="location.href='./#projects' " />
+</section>
+<section id="projects">
+    <p class="section__text__p1"> Confira Meus</p>
+    <h1 class="title">Projetos</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/bmi-calculadora f.png" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Calculadora IMC</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/bmi-calculator' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/bmi-calculator/' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/dark-light-form.png" alt="Project 2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Formulário</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/dark-light-form' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/dark-light-form/' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/to-do-list.png" alt="Project 3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">To Do List</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html ">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/to-do-list' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/to-do-list/' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/coffe-website.png" alt="Project 4" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Site Cafeteria</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/coffee-shop-website' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/coffee-shop-website/' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/weather-forecast.png" alt="Project 5" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Clima Tempo Real</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/weather-forecast' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/weather-forecast' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/digital-watch.png" alt="Project 6" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Relogio Digital</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/digital-watch' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/digital-watch' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/music-player.png" alt="Project 7" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Player de Música</h2>
+            <div class="tools">
+                <img src="assets/bxl-html5.svg" alt="" class="icon icon-html">
+                <img src="assets/bxl-css3.svg" alt="" class="icon icon-css">
+                <img src="assets/bxl-javascript.svg" alt="" class="icon icon-js">
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/marcusgsx/music-player' ">
+                    GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://marcusgsx.github.io/music-player' ">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="assets/down-arrow.png" alt="Icone de seta" class="icon arrow" onclick="location.href='./#contact' " />
+</section>
+<section id="contact">
+    <p class="section__text__p1">Vamos conversar?</p>
+    <h1 class="title">Entre Em Contato</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="assets/envelope-icon.png" 
+            alt="email-icon"
+             class="icon contact-icon "
+             />
+            <p> <a href="mailto:marcus.gomes601@gmail.com">Email </a></p>
+            
+        </div>
+        <div class="contact-info-container">
+            <img src="assets/linkedin-square-logo.png" 
+            alt="linkedin" 
+            class="icon contact-icon" 
+            />
+            <p><a href="https://www.linkedin.com/in/marcusgs/"> LinkedIn</a></p>
+        
+        </div>
+
+    </div>
+
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li> <a href="#profile">Início</a>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#experience">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
