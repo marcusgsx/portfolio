@@ -448,3 +448,6 @@ footer{
     width: 30px;
     cursor: pointer;
 }
+.text-container{
+    font-size: 25px;
+}
